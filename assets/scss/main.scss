@@ -25,10 +25,11 @@
  }
 
  .imagem {
-  position: relative;
-  min-height: 500px; // Garante altura mínima, mas cresce com conteúdo
-  padding-bottom: 100px; // Espaço para as polaroides descerem sem empurrar o rodapé
-  margin-bottom: 0; // ou ajuste conforme o restante do layout
+    position: relative;
+    width: 400px;
+    margin: auto;
+    transform: translateX(30%);
+ 
 
 
   .polaroide {
