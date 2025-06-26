@@ -1,9 +1,12 @@
 .btn{
-  padding: 5px 30px;
+  padding: 5px 40px;
   border-radius: 20px;
 
   &.btn-branco{
     background: $cor-secundaria !important;
     color: black !important;
+    text-decoration: none;
   }
+
 }
+
