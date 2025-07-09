@@ -1,33 +1,31 @@
-header{
-  width: 100%;
-  background-color: rgba(0,0,0,0.5);
-
-  
-  .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 20px;
-  }
-
-  .logo img {
-    height:130px;
-
-  }
-
-  .menu ul {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    list-style: none;
-    padding: 5px 20px;
-  }
-
-  .menu ul li a{
-    color: $cor-secundaria;
-    text-decoration: none;
-  }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $cor-primaria;
 }
+
+.logo img {
+  height:130px;
+}
+
+.menu-sanduiche{
+  display: none;
+}
+
+.menu ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  padding: 5px 20px;
+}
+
+.menu ul li a{
+  color: $cor-secundaria;
+  text-decoration: none;
+}
+
 
   
 

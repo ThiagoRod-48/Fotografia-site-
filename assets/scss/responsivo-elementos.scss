@@ -1,0 +1,750 @@
+@media(max-width:944px){
+  .navbar{
+    width: 100vw;
+  }
+
+  .sobre-fotografia {
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      font-size: clamp(35px, 50vw, 70px);
+      margin-left: 20px;
+    }
+
+    p {
+      font-size: clamp(16px, 3vw, 20px);
+      width: 50%;
+      margin-left: 20px;
+    }
+  }
+
+  .imagem {
+    max-width: 90%; 
+    .polaroide {
+      position: relative; 
+      margin-top: -50px;
+      margin-left: 30px;
+      max-width: 280px;
+      }
+  }
+}
+
+@media(max-width:895px){
+  .navbar{
+    width: 100vw;
+  }
+
+  .sobre-fotografia {
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      font-size: clamp(35px, 50vw, 70px);
+      margin-left: 20px;
+    }
+
+    p {
+      font-size: clamp(16px, 3vw, 20px);
+      width: 40%;
+      margin-left: 20px;
+    }
+  }
+
+  .imagem {
+    max-width: 80%; 
+    .polaroide {
+      position: relative; 
+      margin-top: -110px;
+      margin-left: auto;
+      max-width: 250px;
+    }
+  }
+
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+  }
+}
+
+@media(max-width:830px){
+  .navbar{
+    width: 100vw;
+  }
+
+  .sobre-fotografia {
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      font-size: clamp(35px, 50vw, 70px);
+      margin-left: 20px;
+    }
+
+    p {
+      font-size: clamp(16px, 3vw, 20px);
+      width: 40%;
+      margin-left: 20px;
+    }
+  }
+
+  .imagem {
+    max-width: 80%; 
+    .polaroide {
+      position: relative; 
+      margin-top: -110px;
+      margin-left:200px;
+      max-width: 250px;
+    }
+  }
+
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+  }
+}
+
+@media(max-width:771px){
+  .navbar{
+    width: 100vw;
+  }
+
+  .sobre-fotografia {
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      font-size: clamp(35px, 50vw, 70px);
+      margin-top: 5px;
+      margin-left: 20px;
+    }
+
+    p {
+      font-size: clamp(16px, 3vw, 20px);
+      width: 40%;
+      margin-left: 20px;
+    }
+  }
+
+  .imagem {
+    max-width: 80%; 
+    .polaroide {
+      position: relative; 
+      margin-top: -155px;
+      margin-left: -90px;
+      max-width: 250px;
+    }
+  }
+
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 95px;
+  }
+}
+
+@media(max-width:738px){
+  .navbar{
+    width: 105vw;
+  }
+
+  .sobre-fotografia {
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      font-size: clamp(35px, 50vw, 60px);
+      margin-top: -5px;
+      margin-left: 20px;
+    }
+
+    p {
+      font-size: clamp(16px, 3vw, 20px);
+      width: 40%;
+      margin-left: 20px;
+    }
+  }
+  
+  .imagem {
+    max-width: 80%; 
+    .polaroide {
+      position: relative; 
+      margin-top: -160px;
+      margin-left: -95px;
+      max-width: 250px;
+    }
+  }
+
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+  }
+}
+
+@media(max-width:673px){
+  .navbar{
+    width: 115vw;
+  }
+
+  .sobre-fotografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      font-size: clamp(35px, 50vw, 50px);
+      margin-top: -5px;
+      margin-left: 30px;
+    }
+
+    p {
+      font-size: clamp(16px, 3vw, 20px);
+      width: 100%;
+      margin-left:30px;
+      margin-bottom: 0;
+    }
+
+    a{
+      margin-top: 10px;
+    }
+  }
+  
+  .imagem {
+    max-width: 80%; 
+    display: flex;
+    justify-content: center;
+    .polaroide {
+      width: 50%;
+      margin-top: 170px;
+      margin-left: -210px;
+      max-width: 170px;
+      height: auto;
+    }
+  }
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 290px;
+  }
+}
+
+@media(max-width:469px){
+   .navbar {
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between; // envia logo à esquerda e sanduíche à direita
+      align-items: center;
+      width: 100%;
+      padding: 10px 20px;
+      position: relative;
+
+    .menu-sanduiche {
+      position: absolute;
+      top: 50%;
+      right: 19px;
+      transform: translateY(-50%);
+      display: flex;
+      cursor: pointer;
+    }
+
+    .menu {
+      display: none;
+      position: absolute;
+      width: 25%;
+      top: 62%;
+      right: -15px;
+      background-color: rgba(0,0,0,0.5);
+      margin: 0;
+      padding: 0;
+      border: 0;
+      z-index: 999;
+
+      ul {
+        display: flex;
+        margin: 0;
+        padding: 10px;
+        flex-direction: column;
+        list-style: none;
+
+        li {
+          width: 100%;
+          text-align: center;
+
+          a {
+            color: $cor-secundaria;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            line-height: 90%; // altura consistente
+            text-align: center;
+            transition: 0.3s ease;
+
+          // REMOVE ISSO: transform: translateY(10px);
+
+          // Removido hover com fundo preto
+          &:hover {
+          color: lighten(#000, 15%); // ou um tom mais claro
+          font-weight: bold;
+          }
+
+
+
+          &.ativo {
+            color: $cor-secundaria(#000, 20%);          
+          }          
+        }
+        .btn {
+          all: unset;
+          color: $cor-secundaria; 
+          display: block;
+          width: 100%;
+          box-sizing: border-box;
+          line-height: 90%;
+        }
+      }
+    }
+
+
+    &.show {
+      display: block; 
+      }
+    }
+  }
+
+  .sobre-fotografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      font-size: clamp(25px, 30vw, 40px);
+      margin-top: -20px;
+      width: 100%;
+    }
+
+    p {
+      font-size: clamp(16px, 3vw, 20px);
+      width: 100%;
+      margin-bottom: 0;
+    }
+
+    a{
+      margin-top: 10px;
+    }
+  }
+  
+  .imagem {
+    max-width: 80%; 
+    display: flex;
+    justify-content: center;
+    .polaroide {
+      width: 50%;
+      margin-top: 170px;
+      margin-left: -210px;
+      max-width: 170px;
+      height: auto;
+    }
+  }
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 295px;
+  }
+}
+
+@media(max-width:405px){
+ .navbar {
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between; // envia logo à esquerda e sanduíche à direita
+      align-items: center;
+      width: 100%;
+      padding: 10px 20px;
+      position: relative;
+
+    .menu-sanduiche {
+      position: absolute;
+      top: 50%;
+      right: -5px;
+      transform: translateY(-50%);
+      display: flex;
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    .menu {
+      display: none;
+      position: absolute;
+      width: 25%;
+      top: 62%;
+      right: -40px;
+      background-color: rgba(0,0,0,0.5);
+      margin-right: 5px;
+      padding: 0;
+      border: 0;
+      z-index: 999;
+
+      ul {
+        display: flex;
+        margin: 0;
+        padding: 10px;
+        flex-direction: column;
+        list-style: none;
+
+        li {
+          width: 100%;
+          text-align: center;
+
+          a {
+            color: $cor-secundaria;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            line-height: 90%; // altura consistente
+            text-align: center;
+            transition: 0.3s ease;
+
+          // REMOVE ISSO: transform: translateY(10px);
+
+          // Removido hover com fundo preto
+          &:hover {
+          color: lighten(#000, 15%); // ou um tom mais claro
+          font-weight: bold;
+          }
+
+          &.ativo {
+            color: $cor-secundaria(#000, 20%);          
+          }
+        }
+
+      .btn {
+        all: unset;
+        color: $cor-secundaria; 
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        line-height: 90%;
+      }
+    }
+  }
+  
+    &.show {
+      display: block; 
+    }
+  }
+}
+  
+  .sobre-fotografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      font-size: clamp(25px, 30vw, 40px);
+      margin-top: -20px;
+      width: 100%;
+      margin-left: 50px;
+    }
+
+    p {
+      font-size: clamp(16px, 3vw, 20px);
+      width: 100%;
+      margin-left: 50px;
+      
+    }
+
+    a{
+      margin-top: 10px;
+      margin-left: 90px;
+    }
+  }
+  
+  .imagem {
+    max-width: 80%; 
+    display: flex;
+    justify-content: center;
+    .polaroide {
+      width: 50%;
+      margin-top: 165px;
+      margin-left: -210px;
+      max-width: 170px;
+      height: auto;
+    }
+  }
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 283px;
+    margin-left: 80px;
+  }
+}
+
+@media(max-width:369px){
+  .navbar {
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between; // envia logo à esquerda e sanduíche à direita
+      align-items: center;
+      width: 100%;
+      padding: 10px 20px;
+      position: relative;
+
+    .menu-sanduiche {
+      position: absolute;
+      top: 50%;
+      right: -25px;
+      transform: translateY(-50%);
+      display: flex;
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    .menu {
+      display: none;
+      position: absolute;
+      width: 30%;
+      top: 62%;
+      right: -57px;
+      background-color: rgba(0,0,0,0.5);
+      margin: 0;
+      padding: 0;
+      border: 0;
+      z-index: 999;
+
+      ul {
+        display: flex;
+        margin: 0;
+        padding: 10px;
+        flex-direction: column;
+        list-style: none;
+
+        li {
+          width: 100%;
+          text-align: center;
+
+          a {
+            color: $cor-secundaria;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            line-height: 90%; // altura consistente
+            text-align: center;
+            transition: 0.3s ease;
+
+          // REMOVE ISSO: transform: translateY(10px);
+
+          // Removido hover com fundo preto
+          &:hover {
+          color: lighten(#000, 15%); // ou um tom mais claro
+          font-weight: bold;
+          }
+
+          &.ativo {
+            color: $cor-secundaria(#000, 20%);          
+          }
+        }
+
+      .btn {
+        all: unset;
+        color: $cor-secundaria; 
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        line-height: 90%;
+      }
+    }
+  }
+  
+    &.show {
+      display: block; 
+    }
+  }
+}
+  
+  .sobre-fotografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      font-size: clamp(25px, 30vw, 40px);
+      margin-top: -20px;
+      width: 100%;
+      margin-left: 50px;
+    }
+
+    p {
+      font-size: clamp(16px, 3vw, 20px);
+      width: 90%;
+      margin-left: 70px;
+    }
+
+    a{
+      margin-top: 10px;
+      margin-left: 90px;
+    }
+  }
+  
+  .imagem {
+    max-width: 80%; 
+    display: flex;
+    justify-content: center;
+    .polaroide {
+      width: 50%;
+      margin-top: 158px;
+      margin-left: -190px;
+      max-width: 170px;
+      height: auto;
+    }
+  }
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 283px;
+    margin-left: 90px;
+  }
+}
+
+@media(max-width:320px){
+ .navbar {
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between; // envia logo à esquerda e sanduíche à direita
+      align-items: center;
+      width: 100%;
+      padding: 10px 20px;
+      position: relative;
+
+    .menu-sanduiche {
+      position: absolute;
+      top: 50%;
+      right: -40px;
+      transform: translateY(-50%);
+      display: flex;
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    .menu {
+      display: none;
+      position: absolute;
+      width: 30%;
+      top: 62%;
+      right: -70px;
+      background-color: rgba(0,0,0,0.5);
+      margin: 0;
+      padding: 0;
+      border: 0;
+      z-index: 999;
+
+      ul {
+        display: flex;
+        margin: 0;
+        padding: 10px;
+        flex-direction: column;
+        list-style: none;
+
+        li {
+          width: 100%;
+          text-align: center;
+
+          a {
+            color: $cor-secundaria;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            line-height: 90%; // altura consistente
+            text-align: center;
+            transition: 0.3s ease;
+
+          // REMOVE ISSO: transform: translateY(10px);
+
+          // Removido hover com fundo preto
+          &:hover {
+          color: lighten(#000, 15%); // ou um tom mais claro
+          font-weight: bold;
+          }
+
+          &.ativo {
+            color: $cor-secundaria(#000, 20%);          
+          }
+        }
+
+      .btn {
+        all: unset;
+        color: $cor-secundaria; 
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        line-height: 90%;
+      }
+    }
+  }  
+      &.show {
+        display: block; 
+      }
+    }
+  }
+  
+  .sobre-fotografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+   h1 {
+      font-size: clamp(25px, 30vw, 45px);
+      margin-top: -20px;
+      width: 100%;
+      margin-left: 65px;
+    }
+
+    p {
+      font-size: clamp(16px, 3vw, 18px);
+      width: 90%;
+      margin-bottom: 0;
+      margin-left: 90px;
+    }
+
+    a{
+      
+      margin-top: 10px;
+      margin-right: -50px;
+    }
+  }
+  
+  .imagem {
+    max-width: 80%; 
+    display: flex;
+    justify-content: center;
+    .polaroide {
+      width: 50%;
+      margin-top: 150px;
+      margin-left: -140px;
+      max-width: 170px;
+      height: auto;
+    }
+  }
+  .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 290px;
+    margin-left: 120px;
+  }
+}

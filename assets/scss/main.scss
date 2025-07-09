@@ -8,7 +8,7 @@
   line-height: 110%;
   color: $cor-secundaria;
   margin-left: 30px;
-  margin-top: 25px;
+  margin-top: 10px;
  }
 
  p{
@@ -26,7 +26,7 @@
 
  .imagem {
     position: relative;
-    width: 400px;
+    width: 450px;
     margin: auto;
     transform: translateX(30%);
  
@@ -34,16 +34,16 @@
 
   .polaroide {
     position: absolute;
-    width: 360px;
-    top: 75%;
-    left: 60%;
+    width: 335px;
+    top: 50%;
+    left: max(50%, 350px);
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease, z-index 0.3s ease;
     cursor: pointer;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px $preto-desgastado;
     padding: 10px 10px 50px 10px;
-    border: 1px solid #ccc;
-    background: white;
+    border: 1px solid $cinza;
+    background:$cor-secundaria;
   }
  }
 }

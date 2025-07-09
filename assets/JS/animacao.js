@@ -1,5 +1,5 @@
 gsap.from(".polaroide", {
-  y: -300,
+  y: -35,
   autoAlpha: 0,
   rotation: -15,
   duration: 0.6,
