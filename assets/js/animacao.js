@@ -6,6 +6,6 @@ gsap.from(".polaroide", {
   stagger: 0.15,
   ease: "back.out(1.7)",
   onComplete: () => {
-    iniciarClique();
+    atualizarZIndex();
   },
 });
