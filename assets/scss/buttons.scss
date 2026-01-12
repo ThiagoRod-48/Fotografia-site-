@@ -1,12 +1,18 @@
-.btn{
+.btn {
   padding: 5px 40px;
   border-radius: 20px;
 
-  &.btn-branco{
-    background: $cor-secundaria;
-    color: $preto;
+  &.btn-branco {
+    background: $cor-botao;
+    color: $preto-fosco;
     text-decoration: none;
   }
-
 }
 
+.btn:hover {
+  background: $cor-hover;
+
+  &.btn-branco {
+    color: $preto-fosco;
+  }
+}

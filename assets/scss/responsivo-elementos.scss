@@ -1,719 +1,293 @@
-@media(max-width:944px){
-  .navbar{
-    width: 100vw;
-  }
-
+@media (max-width: 1024px) {
   .sobre-fotografia {
     flex-direction: column;
     align-items: flex-start;
 
     h1 {
       font-size: clamp(35px, 50vw, 70px);
-      margin-left: 20px;
     }
 
     p {
-      font-size: clamp(16px, 3vw, 20px);
-      width: 50%;
-      margin-left: 20px;
+      font-size: clamp(15px, 2.6vw, 18px);
+      max-width: 420px;
+      line-height: 1.6;
     }
   }
 
   .imagem {
-    max-width: 90%; 
+    max-width: 100%;
+
     .polaroide {
-      position: relative; 
-      margin-top: -50px;
-      margin-left: 30px;
-      max-width: 280px;
-      }
-  }
-}
-
-@media(max-width:895px){
-  .navbar{
-    width: 100vw;
-  }
-
-  .sobre-fotografia {
-    flex-direction: column;
-    align-items: flex-start;
-
-    h1 {
-      font-size: clamp(35px, 50vw, 70px);
-      margin-left: 20px;
-    }
-
-    p {
-      font-size: clamp(16px, 3vw, 20px);
-      width: 40%;
-      margin-left: 20px;
-    }
-  }
-
-  .imagem {
-    max-width: 80%; 
-    .polaroide {
-      position: relative; 
-      margin-top: -110px;
-      margin-left: -75px;
-      max-width: 250px;
-    }
-  }
-
-  .social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 95px;
-  }
-}
-
-@media(max-width:830px){
-  .navbar{
-    width: 100vw;
-  }
-
-  .sobre-fotografia {
-    flex-direction: column;
-    align-items: flex-start;
-
-    h1 {
-      font-size: clamp(35px, 50vw, 70px);
-      margin-left: 20px;
-    }
-
-    p {
-      font-size: clamp(16px, 3vw, 20px);
-      width: 40%;
-      margin-left: 20px;
-    }
-  }
-
-  .imagem {
-    max-width: 80%; 
-    .polaroide {
-      position: relative; 
-      margin-top: -110px;
-      margin-left: -75px;
-      max-width: 250px;
-    }
-  }
-
-  .social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 95px;
-  }
-}
-
-@media(max-width:771px){
-  .navbar{
-    width: 100vw;
-  }
-
-  .sobre-fotografia {
-    flex-direction: column;
-    align-items: flex-start;
-
-    h1 {
-      font-size: clamp(35px, 50vw, 70px);
-      margin-top: 5px;
-      margin-left: 20px;
-    }
-
-    p {
-      font-size: clamp(16px, 3vw, 20px);
-      width: 40%;
-      margin-left: 20px;
-    }
-  }
-
-  .imagem {
-    max-width: 80%; 
-    .polaroide {
-      position: relative; 
-      margin-top: -155px;
-      margin-left: -90px;
-      max-width: 250px;
-    }
-  }
-
-  .social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 95px;
-  }
-}
-
-@media(max-width:738px){
-  .navbar{
-    width: 105vw;
-  }
-
-  .sobre-fotografia {
-    flex-direction: column;
-    align-items: flex-start;
-
-    h1 {
-      font-size: clamp(35px, 50vw, 60px);
-      margin-top: -5px;
-      margin-left: 20px;
-    }
-
-    p {
-      font-size: clamp(16px, 3vw, 20px);
-      width: 40%;
-      margin-left: 20px;
-    }
-  }
-  
-  .imagem {
-    max-width: 80%; 
-    .polaroide {
-      position: relative; 
-      margin-top: -160px;
-      margin-left: -95px;
-      max-width: 250px;
-    }
-  }
-
-  .social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 65px;
-  }
-}
-
-@media(max-width:673px){
-  .navbar{
-    width: 115vw;
-  }
-
-  .sobre-fotografia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-    h1 {
-      font-size: clamp(35px, 50vw, 50px);
-      margin-top: -5px;
-      margin-left: 30px;
-    }
-
-    p {
-      font-size: clamp(16px, 3vw, 20px);
-      width: 100%;
-      margin-left:30px;
-      margin-bottom: 0;
-    }
-
-    a{
-      margin-top: 10px;
-    }
-  }
-  
-  .imagem {
-    max-width: 80%; 
-    display: flex;
-    justify-content: center;
-    .polaroide {
-      width: 50%;
-      margin-top: 170px;
-      margin-left: -210px;
-      max-width: 170px;
-      height: auto;
-    }
-  }
-  .social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 290px;
-  }
-}
-
-@media(max-width:469px){
-   .navbar {
-      background-color: transparent;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      padding: 10px 20px;
       position: relative;
-
-    .menu-sanduiche {
-      position: absolute;
-      top: 50%;
-      right: 19px;
-      transform: translateY(-50%);
-      display: flex;
-      cursor: pointer;
+      max-width: 300px;
+      margin: -70px 0 0 -55px;
     }
+  }
+}
 
-    .menu {
-      display: none;
-      position: absolute;
-      width: 25%;
-      top: 62%;
-      right: -15px;
-      background-color: $cor-primaria;
+@media (max-width: 880px) {
+  .sobre-fotografia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+
+    h1 {
+      font-size: clamp(40px, 6.8vw, 72px);
+      line-height: 1.15;
       margin: 0;
-      padding: 0;
-      border: 0;
-      z-index: 999;
-
-      ul {
-        display: flex;
-        margin: 0;
-        padding: 10px;
-        flex-direction: column;
-        list-style: none;
-
-        li {
-          width: 100%;
-          text-align: center;
-
-          a {
-            color: $cor-secundaria;
-            display: block;
-            width: 100%;
-            box-sizing: border-box;
-            line-height: 90%; 
-            text-align: center;
-            transition: 0.3s ease;
-
-            &:hover {
-            color: lighten($preto, 15%);
-            font-weight: bold;
-            }
-
-            &.ativo {
-              color: $cor-secundaria($preto, 20%);          
-            }          
-          }
-
-          .btn {
-            all: unset;
-            color: $cor-secundaria; 
-            display: block;
-            width: 100%;
-            box-sizing: border-box;
-            line-height: 90%;
-          }
-        }     
-      }
-    }
-  }
-
-  .sobre-fotografia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-    h1 {
-      font-size: clamp(25px, 30vw, 40px);
-      margin-top: -30px;
-      width: 100%;
     }
 
     p {
-      font-size: clamp(16px, 3vw, 20px);
-      width: 100%;
+      font-size: clamp(14px, 2.1vw, 17px);
+      max-width: 400px;
+      line-height: 1.6;
+      margin: 0;
     }
 
-    a{
-      margin-top: 10px;
+    .btn {
+      margin-top: clamp(24px, 5vw, 40px);
     }
   }
-  
+
   .imagem {
-    max-width: 80%; 
-    display: flex;
-    justify-content: center;
-    .polaroide {
-      width: 50%;
-      margin-top: 165px;
-      margin-left: -235px;
-      max-width: 170px;
-      height: auto;
-    }
-  }
-  .social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 300px;
-  }
-}
+    width: 100%;
 
-@media(max-width:405px){
- .navbar {
-      background-color: transparent;
-      display: flex;
-      justify-content: space-between; 
-      align-items: center;
-      width: 100%;
-      padding: 10px 20px;
+    .polaroide {
       position: relative;
-
-    .menu-sanduiche {
-      position: absolute;
-      top: 50%;
-      right: -5px;
-      transform: translateY(-50%);
-      display: flex;
-      font-size: 30px;
-      cursor: pointer;
-    }
-
-    .menu {
-      display: none;
-      position: absolute;
-      width: 25%;
-      top: 62%;
-      right: -40px;
-      background-color: $cor-primaria;
-      margin-right: 5px;
-      padding: 0;
-      border: 0;
-      z-index: 999;
-
-      ul {
-        display: flex;
-        margin: 0;
-        padding: 10px;
-        flex-direction: column;
-        list-style: none;
-
-        li {
-          width: 100%;
-          text-align: center;
-
-          a {
-            color: $cor-secundaria;
-            display: block;
-            width: 100%;
-            box-sizing: border-box;
-            line-height: 90%; 
-            text-align: center;
-            transition: 0.3s ease;
-
-            &:hover {
-            color: lighten($preto, 15%); 
-            font-weight: bold;
-            }
-
-            &.ativo {
-              color: $cor-secundaria($preto, 20%);          
-            }
-          }
-
-          .btn {
-            all: unset;
-            color: $cor-secundaria; 
-            display: block;
-            width: 100%;
-            box-sizing: border-box;
-            line-height: 90%;
-          }
-        }
-      }
+      max-width: 240px;
+      margin: -40px 0 0 clamp(55px, 15vw, 90px);
     }
   }
-  
+}
+
+@media (max-width: 785px) {
+  .sobre-fotografia {
+    padding: 0 14px;
+    gap: 8px;
+
+    h1 {
+      font-size: clamp(30px, 6vw, 54px);
+    }
+
+    p {
+      font-size: clamp(13.5px, 2vw, 15px);
+      max-width: 340px;
+      line-height: 1.55;
+    }
+  }
+
+  .imagem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .polaroide {
+      max-width: 215px;
+      margin: -40px 0 0 clamp(15px, 4.5vw, 65px);
+    }
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 695px) {
   .sobre-fotografia {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-left: 0;
 
     h1 {
-      
-      font-size: clamp(25px, 30vw, 40px);
-      margin-top: -30px;
-      width: 100%;
-      margin-left: 50px;
+      font-size: clamp(35px, 7.5vw, 65px);
+      line-height: 1.1;
+      margin: 0;
     }
 
     p {
-      font-size: clamp(16px, 3vw, 20px);
-      width: 100%;
-      margin-left: 50px;
-      
+      font-size: clamp(14px, 3.5vw, 15px);
+      max-width: 450px;
+      line-height: 1.55;
+      margin: 0;
     }
 
-    a{
-      margin-top: 10px;
-      margin-left: 90px;
+    .btn {
+      margin-top: 20px;
+    }
+
+    .imagem {
+      transform: none;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .imagem .polaroide {
+      position: absolute;
+      margin-top: clamp(100px, 50vw, 215px);
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-3deg);
     }
   }
-  
-  .imagem {
-    max-width: 80%; 
-    display: flex;
-    justify-content: center;
-    .polaroide {
-      width: 50%;
-      margin-top: 165px;
-      margin-left: -225px;
-      max-width: 170px;
-      height: auto;
-    }
-  }
-  .social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 300px;
-    margin-left: 80px;
+
+  .social {
+    margin-top: clamp(310px, 44vw, 420px);
   }
 }
 
-@media(max-width:369px){
+@media (max-width: 519px) {
   .navbar {
-      background-color: transparent;
-      display: flex;
-      justify-content: space-between; 
-      align-items: center;
-      width: 100%;
-      padding: 10px 20px;
-      position: relative;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
 
     .menu-sanduiche {
       position: absolute;
       top: 50%;
-      right: -25px;
+      right: 55px;
       transform: translateY(-50%);
       display: flex;
-      font-size: 30px;
       cursor: pointer;
     }
 
     .menu {
       display: none;
       position: absolute;
-      width: 30%;
-      top: 62%;
-      right: -57px;
-      background-color: $cor-primaria;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      z-index: 999;
-
-      ul {
-        display: flex;
-        margin: 0;
-        padding: 10px;
-        flex-direction: column;
-        list-style: none;
-
-        li {
-         width: 100%;
-         text-align: center;
-
-          a {
-           color: $cor-secundaria;
-           display: block;
-           width: 100%;
-           box-sizing: border-box;
-           line-height: 90%; 
-           text-align: center;
-           transition: 0.3s ease;
-
-            &:hover {
-             color: lighten($preto, 15%); 
-             font-weight: bold;
-            }
-
-            &.ativo {
-             color: $cor-secundaria($preto, 20%);          
-            }
-          }
-
-          .btn {
-           all: unset;
-           color: $cor-secundaria; 
-           display: block;
-           width: 100%;
-           box-sizing: border-box;
-           line-height: 90%;
-          }
-        }
-      }
-    }
-  }      
-  .sobre-fotografia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-    h1 {
-      font-size: clamp(25px, 30vw, 40px);
-      margin-top: -30px;
-      width: 100%;
-      margin-left: 50px;
-    }
-
-    p {
-      font-size: clamp(16px, 3vw, 20px);
-      width: 90%;
-      margin-left: 70px;
-    }
-
-    a{
-      margin-top: 10px;
-      margin-left: 90px;
-    }
-  }
-  
-  .imagem {
-    max-width: 80%; 
-    display: flex;
-    justify-content: center;
-    .polaroide {
-      width: 50%;
-      margin-top: 165px;
-      margin-left: -225px;
-      max-width: 170px;
-      height: auto;
-    }
-  }
-  .social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 300px;
-    margin-left: 90px;
-  }
-}
-
-@media(max-width:320px){
- .navbar {
-      background-color: transparent;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      padding: 10px 20px;
-      position: relative;
-
-    .menu-sanduiche {
-      position: absolute;
-      top: 50%;
-      right: -40px;
+      justify-content: center;
+      text-align: center;
+      top: 111%;
       transform: translateY(-50%);
-      display: flex;
-      font-size: 30px;
-      cursor: pointer;
-    }
+      right: 12px;
 
-    .menu {
-      display: none;
-      position: absolute;
-      width: 30%;
-      top: 62%;
-      right: -70px;
-      background-color: $cor-primaria;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      z-index: 999;
+      width: min(115px, 35vw);
+      padding: 10px;
 
-
+      background: $preto-fosco;
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
 
       ul {
         display: flex;
-        margin: 0;
-        padding: 10px;
         flex-direction: column;
+        align-items: center;
+        gap: 10px;
         list-style: none;
+        padding: 0;
+        margin: 0;
 
         li {
           width: 100%;
           text-align: center;
 
-          a {
-            color: $cor-secundaria;
-            display: block;
+          .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
             width: 100%;
-            box-sizing: border-box;
-            line-height: 90%; 
-            text-align: center;
-            transition: 0.3s ease;
+            padding: 10px 12px;
 
-            &:hover {
-            color: lighten($preto, 15%); 
-            font-weight: bold;
-            }
-
-            &.ativo {
-              color: $cor-secundaria($preto, 20%);          
-            }
+            font-size: 13.5px;
+            line-height: 1.4;
+            letter-spacing: 0.02em;
+            font-weight: 400;
           }
 
-        .btn {
-          all: unset;
-          color: $cor-secundaria; 
-          display: block;
-          width: 100%;
-          box-sizing: border-box;
-          line-height: 90%;
+          .btn {
+            all: unset;
+            cursor: pointer;
+          }
+
+          a.ativo {
+            color: $cor-botao;
+          }
+
+          a:hover {
+            color: $cor-hover;
+          }
         }
       }
     }
-  }      
-}
-  .sobre-fotografia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  }
 
-   h1 {
-      font-size: clamp(25px, 30vw, 45px);
-      margin-top: -30px;
-      width: 100%;
-      margin-left: 65px;
+  .sobre-fotografia {
+    margin-left: 0%;
+
+    h1 {
+      font-size: clamp(32px, 9vw, 52px);
+      margin-top: -28px;
     }
 
     p {
-      font-size: clamp(16px, 3vw, 18px);
-      width: 90%;
-      margin-left: 90px;
+      font-size: clamp(13px, 5vw, 15px);
+      max-width: 100%;
+      margin-top: 10px;
     }
 
-    a{
-      margin-top: 10px;
-      margin-right: -50px;
+    .btn {
+      margin-top: 18px;
+    }
+
+    .imagem {
+      width: 100%;
+      margin: 0 auto;
+      transform: none;
+    }
+
+    .imagem .polaroide {
+      position: absolute;
+      left: 50%;
+      margin-top: clamp(140px, 50vw, 215px);
+      transform: translate(-50%, -50%) rotate(-3deg);
+      max-width: 200px;
     }
   }
-  
-  .imagem {
-    max-width: 80%; 
-    display: flex;
-    justify-content: center;
-    .polaroide {
-      width: 50%;
-      margin-top: 165px;
-      margin-left: -225px;
-      max-width: 170px;
-      height: auto;
+
+  .social {
+    margin-top: clamp(322px, 55vw, 365px);
+  }
+}
+
+@media (max-width: 470px) {
+  .sobre-fotografia {
+    padding: 0 12px;
+
+    h1 {
+      font-size: clamp(38px, 8.5vw, 55px);
+      line-height: 1.1;
+      margin-top: -18px;
+    }
+
+    p {
+      font-size: clamp(11.5px, 4vw, 14px);
+      line-height: 1.55;
+      max-width: 350px;
+      margin-top: 12px;
+    }
+
+    .btn {
+      margin-top: 16px;
+      padding: 12px 20px;
+    }
+
+    .imagem {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .imagem .polaroide {
+      max-width: 180px;
+      margin-top: clamp(140px, 60vw, 200px);
     }
   }
-  .social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 300px;
-    margin-left: 120px;
+
+  .social {
+    margin-top: clamp(299px, 57vw, 350px);
   }
 }

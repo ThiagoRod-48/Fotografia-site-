@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,10 +6,10 @@
 }
 
 .logo img {
-  height:130px;
+  height: 130px;
 }
 
-.menu-sanduiche{
+.menu-sanduiche {
   display: none;
 }
 
@@ -21,18 +21,11 @@
   padding: 5px 20px;
 }
 
-.menu ul li a{
-  color: $cor-secundaria;
+.menu ul li a {
+  color: $cor-botao;
   text-decoration: none;
 }
 
-
-  
-
-
-
-
-
-
-
-
+.menu ul li a:hover {
+  color: $cor-hover;
+}

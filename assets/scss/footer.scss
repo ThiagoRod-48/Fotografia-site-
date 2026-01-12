@@ -1,9 +1,17 @@
-  .social {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;
-    margin-top: min(15%, 300px);
-    margin-left: 30px;
-  }
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin-top: min(15%, 300px);
+  margin-left: 30px;
+}
+
+.social a {
+  color: $cor-botao;
+}
+
+.social a:hover {
+  color: $cor-hover;
+}
