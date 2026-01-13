@@ -1,3 +1,4 @@
+//Animação do polaroide
 window.addEventListener("DOMContentLoaded", () => {
   gsap.set(".polaroide", {
     xPercent: -50,
