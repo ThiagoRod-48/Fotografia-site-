@@ -34,7 +34,6 @@
       width: 340px;
       top: calc(50% - 50px);
       left: max(50%, 350px);
-      transform: translate(-50%, -50%);
       transition: transform 0.3s ease, z-index 0.3s ease;
       cursor: pointer;
       box-shadow: 0 8px 16px $preto-sombra;
